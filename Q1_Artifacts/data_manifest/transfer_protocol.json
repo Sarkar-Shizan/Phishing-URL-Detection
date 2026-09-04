@@ -1,0 +1,6 @@
+{
+    "main_model": "46-feature XGBoost",
+    "external_evaluation": "Reduced-feature cross-dataset transfer",
+    "not_claimed": "Direct external validation of final model",
+    "reason": "External datasets contain different feature spaces"
+}

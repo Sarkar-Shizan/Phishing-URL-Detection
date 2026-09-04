@@ -1,0 +1,14 @@
+Feature,Data_Type,Minimum,Maximum,Missing_Value,Formula,Meaning,Missing_Value_Rule
+IpAddressRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+AtSymbolRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+UrlLengthRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+DoubleSlashRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+PrefixSuffixRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+FaviconRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+RequestURLRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+AnchorRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+SubmitEmailRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+MouseoverRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+RightClickRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+PopupRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline
+IframeRisk,float64,0.0,1.0,0,Dataset-specific engineered URL feature extraction,URL lexical or structural phishing indicator,Handled during preprocessing pipeline

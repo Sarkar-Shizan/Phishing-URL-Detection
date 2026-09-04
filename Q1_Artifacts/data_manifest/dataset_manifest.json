@@ -1,0 +1,20 @@
+{
+    "created_date": "2026-09-04 15:02:02.586123",
+    "primary_dataset": {
+        "name": "Phishing_Legitimate_full",
+        "type": "Engineered phishing URL feature dataset",
+        "raw_url_available": false,
+        "label": "CLASS_LABEL"
+    },
+    "external_transfer_datasets": {
+        "UCI": {
+            "feature_type": "13 feature representation",
+            "evaluation": "Reduced-feature transfer"
+        },
+        "PhiUSIIL": {
+            "feature_type": "18 URL lexical features",
+            "evaluation": "Reduced-feature transfer"
+        }
+    },
+    "claim": "Cross-dataset transfer evaluation, not direct validation of the final 46-feature model"
+}

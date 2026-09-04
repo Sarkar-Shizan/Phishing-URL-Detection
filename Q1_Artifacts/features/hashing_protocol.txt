@@ -1,0 +1,16 @@
+
+
+Duplicate grouping protocol
+
+Purpose:
+Prevent identical feature-pattern leakage.
+
+Input:
+Feature vector used for grouping.
+
+Normalization:
+Numeric conversion before hashing.
+
+Output:
+Group identifier for split isolation.
+

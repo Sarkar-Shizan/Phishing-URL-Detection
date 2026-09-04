@@ -1,0 +1,9 @@
+{
+    "model": "Final XGBoost",
+    "test_samples": 1500,
+    "metrics": {
+        "accuracy": null,
+        "f1": null,
+        "mcc": null
+    }
+}

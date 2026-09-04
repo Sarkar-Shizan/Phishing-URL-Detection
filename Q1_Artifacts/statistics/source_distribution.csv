@@ -1,0 +1,4 @@
+source,samples,positives,positive_rate
+openphish,300,300,1.0
+tranco,24406,0,0.0
+urlhaus,24106,24106,1.0
