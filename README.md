@@ -1,93 +1,127 @@
+## Phishing URL Detection 
+ 
+## Reproducibility Package 
+ 
+This repository contains the complete reproducibility package for the
+leakage-controlled phishing URL detection framework, including experimental
+code, dataset information, evaluation artifacts, explainability outputs,
+and submission-ready results.
 
 
-# Trustworthy Phishing URL Detection
+## Files 
+ 
+ 
+### Datasets
+ 
+datasets/
+ 
+Contains dataset descriptions, metadata, and required information for
+reproducing the experiments.
+ 
+Includes:
 
-## Reproducibility Package
+- dataset descriptions
+- dataset sources
+- feature availability information
 
-
-## Files
-
-
+ 
 ### Notebook
+ 
+notebooks/
+ 
+cyber-phishing-code.ipynb 
+ 
+Complete experimental workflow including:
 
-cyber-phishing (1).ipynb
-
-Complete experimental workflow.
-
-
-### Q1_Artifacts/
-
-
-data_manifest/
-
-Dataset descriptions and metadata.
-
-
-features/
-
-Feature dictionary and hashing protocol.
-
-
-predictions/
-
-Per-sample sealed test predictions.
-
-
-splits/
-
-Train/validation/test split identifiers.
-
-
-statistics/
-
-Evaluation statistics.
-
-
-shap/
-
-Explainability outputs.
-
-
-optuna/
-
-Hyperparameter optimization records.
-
-
-requirements.txt
-
-Python package versions.
-
-
-## Environment Setup
-
-
-Install required packages:
-
-
-pip install -r Q1_Artifacts/requirements.txt
-
-
-
-## Running the Experiment
-
-
-Open:
-
-cyber-phishing (1).ipynb
-
-
-Run cells sequentially.
-
-
-
-## Purpose
-
-
-This package provides reproducible artifacts for:
-
-- leakage-safe phishing URL detection
-- cross-dataset evaluation
+- data preprocessing
+- leakage screening
+- feature analysis
+- model development
+- XGBoost optimization
+- sealed-test evaluation
+- cross-dataset transfer evaluation
 - explainability analysis
-- robustness testing
+- sensitivity analysis
 
+ 
+### Q1_Artifacts/
+ 
+ 
+data_manifest/
+ 
+Dataset descriptions and metadata.
+ 
+ 
+features/
+ 
+Feature dictionary and feature representation information.
+ 
+ 
+predictions/
+ 
+Per-sample sealed test predictions.
+ 
+ 
+splits/
+ 
+Train/validation/test split identifiers for leakage-controlled evaluation.
+ 
+ 
+statistics/
+ 
+Evaluation statistics, uncertainty estimation, and confidence intervals.
+ 
+ 
+shap/
+ 
+Explainability outputs and SHAP feature attribution results.
+ 
+ 
+optuna/
+ 
+Hyperparameter optimization records.
+ 
+ 
+requirements.txt
+ 
+Python package versions required for reproducing the experiments.
+ 
+ 
+### OUTPUT_SUBMISSION_PACKAGE/
+ 
+Contains all manuscript-related output files.
+ 
+ 
+figures/
+ 
+Publication-ready figures including:
 
+- workflow diagram
+- model comparison
+- SHAP analysis
+- calibration curve
+- sensitivity analysis
+- external transfer comparison
+ 
+ 
+tables/
+ 
+Publication-ready result tables including:
+
+- dataset summary
+- leakage screening results
+- model screening results
+- sealed-test performance
+- cross-dataset transfer performance
+- calibration results
+- sensitivity analysis results
+ 
+ 
+ 
+## Environment Setup 
+ 
+ 
+Install required packages:
+ 
+```bash
+pip install -r Q1_Artifacts/requirements.txt
